@@ -1,11 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type FormEvent } from "react";
 import { ArrowDown, ArrowUpRight, BookOpen, BrainCircuit, Check, Code2, Download, Github, GraduationCap, Linkedin, Mail, MapPin, Menu, MessageCircle, Send, Terminal, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import digitalForm from "@/assets/digital-form.jpg";
-import resumeAsset from "@/assets/resume.pdf.asset.json";
+import { Button } from "../button";
+import { Input } from "../input";
+import { Textarea } from "../textarea";
+import digitalForm from "../digital-form.jpg";
+import resumeAsset from "../resume.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
